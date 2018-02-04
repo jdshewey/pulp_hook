@@ -9,7 +9,7 @@ setup(
     author_email='jdshewey@gmail.com',
     entry_points = {
         'pulp.distributors': [
-            'distributor = pulp_hook.plugins.distributors.distributionhook:entry_point',
+            'distributor = pulp_hook.plugins.distributors.distributor:entry_point',
         ],
     }
 )
